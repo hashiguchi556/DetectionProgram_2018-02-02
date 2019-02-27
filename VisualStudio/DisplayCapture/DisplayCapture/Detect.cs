@@ -356,21 +356,26 @@ namespace DisplayDetector
         }
 
         RingBuf<byte[]> _pictureBuf = new RingBuf<byte[]>(5);//キャプチャ画面のリングバッファ
-        private RingBuf<HSV[,]> _hsvs = new RingBuf<HSV[,]>(10);//キャプチャ画面のHSV表現
+        private RingBuf<byte[,]> _divs = new RingBuf<byte[,]>(2);//
+        private RingBuf<HSV[,]> _hsvs = new RingBuf<HSV[,]>(10);
+        private byte[][,] _marks = new byte[5][,];
         private byte[] OutputPicture;//出力する画像
 
         //一定時間ごとに解析
         void Detection()
         {
-            int height = _defBitmap.Height; //ビットマップの高さ
-            int width = _defBitmap.Width;   //ビットマップの幅
-            int stride = _defBitmap.Stride; //ビットマップのストライド
+            if (_pictureBuf.Count < 2)
+                return;
 
-            byte[] pic1 = _pictureBuf[0];   
+            int height = _defBitmap.Height;
+            int width = _defBitmap.Width;
+            int stride = _defBitmap.Stride;
+
+            byte[] pic1 = _pictureBuf[0];
 
             HSV[,] picHsv = new HSV[width, height];
 
-            //HSV作成
+            //hsv作成
             for (int i = 0; i < height; i++)
             {
                 int h = i * stride;
@@ -586,6 +591,7 @@ namespace DisplayDetector
         public int Stride { get; }
         public Exception Exception;
     }
+
 
 
     //キャプチャ画面のサイズが変わったときに起こる例外

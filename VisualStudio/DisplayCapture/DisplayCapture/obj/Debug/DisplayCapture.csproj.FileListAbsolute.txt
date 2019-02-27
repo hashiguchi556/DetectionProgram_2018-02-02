@@ -24,13 +24,7 @@ C:\Users\works\Documents\学習用\2年後期\ディジタル信号処理\vs\Dis
 C:\Users\works\Documents\学習用\2年後期\ディジタル信号処理\vs\DisplayCapture\DisplayCapture\DisplayCapture\obj\Debug\DisplayCapture.pdb
 C:\Users\works\Documents\学習用\2年後期\ディジタル信号処理\vs\detector1\DisplayCapture\DisplayCapture\bin\Debug\DisplayCapture.dll
 C:\Users\works\Documents\学習用\2年後期\ディジタル信号処理\vs\detector1\DisplayCapture\DisplayCapture\bin\Debug\DisplayCapture.pdb
-C:\Users\works\Documents\学習用\2年後期\ディジタル信号処理\vs\detector1\DisplayCapture\DisplayCapture\obj\Debug\DisplayCapture.csprojResolveAssemblyReference.cache
 C:\Users\works\Documents\学習用\2年後期\ディジタル信号処理\vs\detector1\DisplayCapture\DisplayCapture\obj\Debug\DisplayCapture.csproj.CoreCompileInputs.cache
 C:\Users\works\Documents\学習用\2年後期\ディジタル信号処理\vs\detector1\DisplayCapture\DisplayCapture\obj\Debug\DisplayCapture.dll
 C:\Users\works\Documents\学習用\2年後期\ディジタル信号処理\vs\detector1\DisplayCapture\DisplayCapture\obj\Debug\DisplayCapture.pdb
-C:\Users\works\Documents\GitHub\DetectionProgram_2018-02-02\VisualStudio\DisplayCapture\DisplayCapture\bin\Debug\DisplayCapture.dll
-C:\Users\works\Documents\GitHub\DetectionProgram_2018-02-02\VisualStudio\DisplayCapture\DisplayCapture\bin\Debug\DisplayCapture.pdb
-C:\Users\works\Documents\GitHub\DetectionProgram_2018-02-02\VisualStudio\DisplayCapture\DisplayCapture\obj\Debug\DisplayCapture.csprojResolveAssemblyReference.cache
-C:\Users\works\Documents\GitHub\DetectionProgram_2018-02-02\VisualStudio\DisplayCapture\DisplayCapture\obj\Debug\DisplayCapture.csproj.CoreCompileInputs.cache
-C:\Users\works\Documents\GitHub\DetectionProgram_2018-02-02\VisualStudio\DisplayCapture\DisplayCapture\obj\Debug\DisplayCapture.dll
-C:\Users\works\Documents\GitHub\DetectionProgram_2018-02-02\VisualStudio\DisplayCapture\DisplayCapture\obj\Debug\DisplayCapture.pdb
+C:\Users\works\Documents\学習用\2年後期\ディジタル信号処理\vs\detector1\DisplayCapture\DisplayCapture\obj\Debug\DisplayCapture.csprojAssemblyReference.cache
